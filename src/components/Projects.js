@@ -23,17 +23,13 @@ const classes = makeStyles({
 
 function Projects() {
     return (
-        <div>
             <div className="project-container">
                 <div>
                     <h3 className="project-title">This is where all the project titles go</h3>
                     <Card className={classes.root}>
-                        <CardActionArea>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
+                            <CardMedia title="Portfolio #1" >
+                                <img src="https://cdn.motor1.com/images/mgl/P1j3K/s3/2020-chevrolet-corvette-first-drive.jpg" alt="First portfolio project"/>
+                            </CardMedia>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     #1
@@ -43,7 +39,6 @@ function Projects() {
                                     across all continents except Antarctica
                         </Typography>
                             </CardContent>
-                        </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
                                 Share
@@ -58,11 +53,9 @@ function Projects() {
                     <h3 className="project-title">This is where all the project titles go</h3>
                     <Card className={classes.root}>
                         <CardActionArea>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
+                            <CardMedia title="Portfolio #1" >
+                                <img src="https://cdn.motor1.com/images/mgl/P1j3K/s3/2020-chevrolet-corvette-first-drive.jpg" alt="First portfolio project"/>
+                            </CardMedia>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     #2
@@ -87,11 +80,9 @@ function Projects() {
                     <h3 className="project-title">This is where all the project titles go</h3>
                     <Card className={classes.root}>
                         <CardActionArea>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
+                            <CardMedia title="Portfolio #1" >
+                                <img src="https://cdn.motor1.com/images/mgl/P1j3K/s3/2020-chevrolet-corvette-first-drive.jpg" alt="First portfolio project"/>
+                            </CardMedia>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     #3
@@ -116,11 +107,9 @@ function Projects() {
                     <h3 className="project-title">This is where all the project titles go</h3>
                     <Card className={classes.root}>
                         <CardActionArea>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
+                        <CardMedia title="Portfolio #1" >
+                                <img src="https://cdn.motor1.com/images/mgl/P1j3K/s3/2020-chevrolet-corvette-first-drive.jpg" alt="First portfolio project"/>
+                            </CardMedia>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     #4
@@ -145,11 +134,9 @@ function Projects() {
                     <h3 className="project-title">This is where all the project titles go</h3>
                     <Card className={classes.root}>
                         <CardActionArea>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
+                        <CardMedia title="Portfolio #1" >
+                                <img src="https://cdn.motor1.com/images/mgl/P1j3K/s3/2020-chevrolet-corvette-first-drive.jpg" alt="First portfolio project"/>
+                            </CardMedia>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     #5
@@ -174,11 +161,9 @@ function Projects() {
                     <h3 className="project-title">This is where all the project titles go</h3>
                     <Card className={classes.root}>
                         <CardActionArea>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
+                        <CardMedia title="Portfolio #1" >
+                                <img src="https://cdn.motor1.com/images/mgl/P1j3K/s3/2020-chevrolet-corvette-first-drive.jpg" alt="First portfolio project"/>
+                            </CardMedia>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     #6
@@ -202,7 +187,6 @@ function Projects() {
             </div>
 
 
-        </div>
     )
 }
 

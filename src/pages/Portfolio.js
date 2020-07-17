@@ -1,14 +1,15 @@
-import React from 'react'
-import Projects from "../components/Projects"
+import React from 'react';
+import Projects from '../components/Projects';
 
 
-function portfolio() {
+
+
+function Portfolio() {
     return (
         <div>
-            <p>This is where all my projects would go!</p>
-            <Projects />
+           <Projects/>
         </div>
     )
 }
 
-export default portfolio
+export default Portfolio
