@@ -1,30 +1,41 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Route } from "react-router-dom"; 
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
 
 
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+
+
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
 
 function App() {
   return (
     <Router>
 
-   <div>
-    <div>
-      <Nav />
-    </div>
-      <Route exact path="/" />
-      <Route exact path="/contact" component={Contact} />
-      <Route exact path="/portfolio" component={Portfolio} />
+      <div>
+        <React.Fragment>
+          <CssBaseline />
+          <Container maxWidth="false">
+            <div>
+              <Nav />
+            </div>
+            <Route exact path="/Home" component={Home} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/portfolio" component={Portfolio} />
 
 
-    
-   </div>
-   
-   </Router>
+            <Footer />
+          </Container>
+        </React.Fragment>
+      </div>
+
+    </Router>
   );
 }
 

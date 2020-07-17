@@ -1,11 +1,14 @@
 import React from 'react'
 
-function footer() {
+function Footer() {
     return (
         <div>
+            <div className="footer-container">
+            <h5> Made with love by <a href="https://github.com/rjhern37">Ray Hernandez</a></h5>
+            </div>
             
         </div>
     )
 }
 
-export default footer
+export default Footer
