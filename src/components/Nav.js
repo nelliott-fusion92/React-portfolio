@@ -160,7 +160,7 @@ export default function PersistentDrawerLeft() {
         </List>
         <Divider />
        <Typography variant="caption" display="block" gutterBottom>
-         Copyright 2020 @Ray-Hernandez
+         Copyright 2020 @Rjhern37
 
        </Typography>
       </Drawer>
