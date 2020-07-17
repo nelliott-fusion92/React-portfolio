@@ -14,7 +14,8 @@ const classes = makeStyles({
         maxWidth: 200,
     },
     media: {
-        height: 140,
+        height: 300,
+        width: 300,
     },
 
 });
@@ -30,7 +31,7 @@ function Home() {
                     <CardActionArea>
                         <CardMedia
                             className={classes.media}
-                            image="/static/images/cards/contemplative-reptile.jpg"
+                            image="public/Simpson.jpg"
                             title="Contemplative Reptile"
                         />
                         <CardContent>
