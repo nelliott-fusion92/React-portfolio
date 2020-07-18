@@ -8,7 +8,7 @@ import Portfolio from "./pages/Portfolio";
 
 
 import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer.js";
 
 
 import CssBaseline from '@material-ui/core/CssBaseline';
