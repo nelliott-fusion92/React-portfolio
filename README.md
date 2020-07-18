@@ -1,42 +1,29 @@
+# Create React Express App
 
-# Project Title 
-React-portfolio
+## About This Boilerplate
 
+This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
 
-# Project URL
-https://github.com/rjhern37/React-portfolio
+The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
 
-## Description 
-This is my personal portfolio made with React! This is one of my first React projects and I will be updating often. Please feel free to check out my code!
+## Starting the app locally
 
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Test](#test)
-* [Picture](#picture)
-* [Email](#email)
+Start by installing front and backend dependencies. While in this directory, run the following command:
 
+```
+npm install
+```
 
-## Installation
-npm i
+This should install node modules within the server and the client folder.
 
-## Usage
-<video controls width="250">
- <source src="App-Demo.MP4"
-            type="video/mp4">
-</video>
+After both installations complete, run the following command in your terminal:
 
+```
+npm start
+```
 
+Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-## Test
-npm test
+## Deployment (Heroku)
 
-## License
-<img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
-
-## Picture
-<img src="https://avatars1.githubusercontent.com/u/59975055?v=4"/>
-
-## Email
-rjhern37@neiu.edu
+To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
