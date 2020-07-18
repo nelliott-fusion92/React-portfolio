@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function MultilineTextFields() {
+ function Contact() {
     const classes = useStyles();
 
 
@@ -99,3 +99,4 @@ export default function MultilineTextFields() {
     );
 }
 
+export default Contact
