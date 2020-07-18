@@ -30,7 +30,7 @@ function App() {
             <Route exact path="/portfolio" component={Portfolio} />
 
 
-
+            <Footer />
           </Container>
         </React.Fragment>
       </div>
